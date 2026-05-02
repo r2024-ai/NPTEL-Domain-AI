@@ -89,5 +89,23 @@ BFS - You use Queue
 
 here we need a priority Queue data structure for **Best-First Search**
 
+* **Romania with step costs in km**
+
+![alt text](image-55.png)
+
+![alt text](image-56.png)
+
+above can be done by dijkstra's algorithm as well but here we want to solve with Best-first search
+
+* The straight line would be mine heuristic function
+
+![alt text](image-57.png)
+
+> f(n) says which is the best node overall cumulatively  
+> g(n) says which is the closer node from the start to end  
+> h(n) says how far is the goal from me  
+
+
+
 
 

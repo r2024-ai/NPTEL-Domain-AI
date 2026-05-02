@@ -10,3 +10,18 @@
 * Space?
 * Optimal?
 
+![alt text](image-59.png)
+
+![alt text](image-60.png)
+
+> It gets stuck in loop. we need to do something about it. what intuitively what is going wrong?
+
+> So I am going to simplify g(n) and h(n) and this algorithm that comes out is called A* algorithm
+
+
+## A* search
+
+![alt text](image-61.png)
+
+
+

@@ -26,13 +26,18 @@ its gaze; the freaks of chance disturb it."
     * Heuristic means a practical approach or rule-of-thumb used to solve a problem quickly, especially when a perfect or complete solution is not feasible.
     * Instead of guaranteeing the best answer, a heuristic helps you reach a good enough answer efficiently.
 * Idea - be smart about what paths to try
+    * e.g. I want to go that chair which is present there. Now I don't want to look backwards unless there is some invisible obstacle present as like in science fiction
 
 ![alt text](image-53.png)
 
 ### Blind Search vs. Informed Search
 * What's the difference?
 * How do we formally specify this?
-    * A node is selected for expansion based on an evaluation function that estimates cost to goal.
+    * **A node is selected for expansion based on an evaluation function that estimates cost to goal.**
+
+> Here we are giving more inforamtion. but what information could we give? That's the question.
+> I am simply making an observation that this node is probably closer to the goal. That is the intuition I have. For now, this node looks beter to me than this node because this node is seemingly closer to the goal. And that is the inutition we somehow want to capture
+> And we will capture via heuristic function
 
 ### General Tree Search Paradigm
 

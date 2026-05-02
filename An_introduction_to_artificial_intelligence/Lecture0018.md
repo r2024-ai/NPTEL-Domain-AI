@@ -16,3 +16,5 @@
 ![alt text](image-65.png)
 
 > So there is a proof in the book which shows that the graph search version of A* is optimal if you expand using consistent Heuristics.
+
+![alt text](image-66.png)

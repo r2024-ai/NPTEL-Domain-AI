@@ -12,6 +12,9 @@
 # Informed Search: Best First Search Part-1
 * Based on Slides by Stuart Russell, Richard Korf, Subbarao Kambhampati, and UW-AI faculty
 
+> The main idea of informed search algorithm is that we need to add some intuition in our search algorithms. We don't want it to blindly looking in all directions hoping that by mistake it reaches the goal.  
+> We would encourage it to go towards the goal and add intuition but of course  
+
 "Intuition, like the rays of the sun, acts only  
 in an inflexibly straight line; it can guess  
 right only on condition of never diverting  
@@ -19,6 +22,9 @@ its gaze; the freaks of chance disturb it."
 -- Honore de Balzac
 
 ## Informed(Heuristic) Search
+* Greek word: εὑρίσκειν (heuriskein) → meaning “to find” or “to discover”
+    * Heuristic means a practical approach or rule-of-thumb used to solve a problem quickly, especially when a perfect or complete solution is not feasible.
+    * Instead of guaranteeing the best answer, a heuristic helps you reach a good enough answer efficiently.
 * Idea - be smart about what paths to try
 
 ![alt text](image-53.png)

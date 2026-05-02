@@ -41,6 +41,8 @@ its gaze; the freaks of chance disturb it."
 
 ### General Tree Search Paradigm
 
+* Fringe = all the options you know about but haven’t explored yet.
+
 ```txt
 function tree-search(root-node)
     fringe <-- successors(root-node)
@@ -68,7 +70,24 @@ function tree-search(root-node)
 return failure
 end tree-search
 ```
+
+* When do I know I have found my goal?
+    * When I remove the node from the fringe
+
+
 ## Best-First Search
+
+![alt text](image-54.png)
+
+> So that leads us to our generic best first search algorithm
+
 * Use an evaluation function f(n) for node n.
 * Always choose the node from fringe that has the lowest f value.
+
+DFS - you use Stack  
+BFS - You use Queue  
+
+here we need a priority Queue data structure for **Best-First Search**
+
+
 

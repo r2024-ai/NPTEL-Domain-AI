@@ -5,3 +5,11 @@
 * For real problems we implement A* Algorithm
 
 ## Depth First Branch and Bound Algorithm
+
+![alt text](image-74.png)
+
+![alt text](image-75.png)
+
+![alt text](image-76.png)
+
+![alt text](image-77.png)

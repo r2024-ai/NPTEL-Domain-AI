@@ -125,3 +125,104 @@ If A* is like:
 Then IDA* is like:
 
 > “Try within a cost limit, then gradually allow more”
+
+# ==========================================================
+
+# What is weighted A* algorithm
+
+**Weighted A*** is a variation of A* designed to be **faster**, even if that means giving up guaranteed optimality.
+
+## 1. Start from Regular A*
+
+Normal A* uses:
+
+f(n)=g(n)+h(n)
+
+* ( g(n) ): cost so far
+* ( h(n) ): estimated cost to goal
+
+It balances both → gives **optimal path**
+
+## 2. The Problem with A*
+
+Even though A* is optimal:
+
+* It can be **slow**
+* It explores many nodes to ensure the best path
+
+👉 In real-world systems (games, robotics, large maps),
+sometimes **speed matters more than perfect optimality**
+
+## 3. Idea Behind Weighted A*
+
+> “What if we trust the heuristic more and push the search toward the goal faster?”
+
+So we **increase the importance of ( h(n) )**.
+
+## 4. Weighted A* Formula
+
+f(n)=g(n)+w\cdot h(n),\quad w>1
+
+* ( w ): weight (usually > 1)
+* Higher ( w ) → more greedy behavior
+
+## 5. Intuition
+
+Think of navigation:
+
+* A*: “Let’s carefully consider distance traveled and estimated remaining distance”
+* Weighted A*: “Let’s **rush toward the goal**, even if path might not be perfect”
+
+## 6. Visual Behavior
+
+* A* explores broadly → finds best path
+* Weighted A* goes more directly → explores fewer nodes
+
+## 7. What Changes with Weight?
+
+### When ( w = 1 )
+
+* Same as A*
+
+### When ( w > 1 )
+
+* Faster
+* Less node expansion
+* Not guaranteed optimal
+
+### When ( w \gg 1 )
+
+* Becomes similar to **Greedy Best-First Search**
+
+## 8. Trade-Off
+
+| Aspect     | A*       | Weighted A*       |
+| ---------- | -------- | ----------------- |
+| Optimality | ✅ Yes    | ❌ Not guaranteed  |
+| Speed      | ❌ Slower | ✅ Faster          |
+| Memory     | ❌ High   | ✅ Lower (usually) |
+| Behavior   | Balanced | Goal-directed     |
+
+## 9. Important Property
+
+Weighted A* is often **bounded suboptimal**:
+
+* If ( w = 2 ),
+  solution cost ≤ **2 × optimal cost**
+
+👉 So you can control:
+
+* **Speed vs Accuracy** using ( w )
+
+## 10. Where It’s Used
+
+* Game AI (fast decisions matter more than perfect ones)
+* Robotics (real-time planning)
+* Route planning with time constraints
+
+## Final Intuition
+
+* A* = “Be correct”
+* Weighted A* = “Be fast, close enough is fine”
+
+

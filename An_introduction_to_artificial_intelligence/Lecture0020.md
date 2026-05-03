@@ -28,3 +28,6 @@
 ## Non-optimal variations
 
 ![alt text](image-80.png)
+
+> Key question is that we need to answer is in general how do we find heuristics? is there a general principle here?
+> A little bit of understanding of how to create admissbile heuristics which is what we are going to do in the next segment of the class

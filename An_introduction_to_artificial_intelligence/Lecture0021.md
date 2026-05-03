@@ -18,3 +18,13 @@
 ![alt text](image-82.png)
 
 ![alt text](image-83.png)
+
+## Relaxed Problems
+
+![alt text](image-84.png)
+
+## Hamiltonian Cycle Problem
+
+![alt text](image-85.png)
+
+![alt text](image-86.png)

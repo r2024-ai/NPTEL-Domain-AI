@@ -69,3 +69,5 @@ We have discussed how to compute good heuristics. At least
 admissible heuristics required domain relaxations and then these relaxations can sometimes become large. So sometimes you want to do them in a batch, compute all the sticks and then put them in a database. And sometimes state space is too large. You cannot do
 this. So you break the state space into multiple sub parts, compute heuristics on top of them, put it in multiple databases and Max or add them. These are called pattern databases.  
 So this is our story up to now.
+
+> In next class, we will talk about local search, a very different but in some ways in my opinion more practical a different mechanism for doing search and solving problems  

@@ -385,7 +385,7 @@ So the neural network is essentially **building increasingly useful representati
 
 # 10. One thing to notice about the notation
 
-The superscript ((1),(2)) does **not** mean power.
+The superscript $((1),(2))$ does **not** mean power.
 
 For example:
 

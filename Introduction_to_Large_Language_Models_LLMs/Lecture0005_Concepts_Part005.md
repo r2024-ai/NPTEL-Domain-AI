@@ -1319,9 +1319,7 @@ Also, in modern neural networks, the actual choice of activation depends on arch
 Earlier you had:
 
 $$
-a_j^{(1)}
-=
-\sum_i w_{ji}^{(1)}x_i+b_j^{(1)}
+a_j^{(1)} = \sum_i w_{ji}^{(1)}x_i+b_j^{(1)}
 $$
 
 and then:

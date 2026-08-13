@@ -1333,8 +1333,7 @@ The (h) in that equation is **exactly what this lecture is discussing**.
 For example, if we choose ReLU:
 
 $$
-z_j^{(1)}
-=
+z_j^{(1)} =
 ReLU(a_j^{(1)})
 $$
 

@@ -1,3 +1,5 @@
+![alt text](image-16.png)
+
 # GELU and GLU
 
 Yes. The **GLU** your instructor has written is most likely **Gaussian Error Linear Unit (GELU)** — although the handwriting looks like “GLU.” The formula and the examples in the image point to **GELU**.

@@ -1096,7 +1096,7 @@ Your instructor also writes something like:
 
 
 $$
-\operatorname{ReLU}(x),\operatorname{ReLU}(-x)
+\mathrm{ReLU}(x),\mathrm{ReLU}(-x)
 $$
 
 

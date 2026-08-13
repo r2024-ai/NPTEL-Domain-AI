@@ -336,8 +336,7 @@ $$
 During backpropagation, gradients are multiplied together:
 
 $$
-\frac{\partial L}{\partial x}
-=
+\frac{\partial L}{\partial x} =
 \frac{\partial L}{\partial z_3}
 \frac{\partial z_3}{\partial z_2}
 \frac{\partial z_2}{\partial z_1}
@@ -564,8 +563,7 @@ This is why the later development of activation functions such as **ReLU** becam
 At the bottom of your image, your instructor writes:
 
 $$
-g(x_1,\ldots,x_n)_i
-=
+g(x_1,\ldots,x_n)_i =
 \frac{e^{x_i}}
 {\sum_j e^{x_j}}
 $$
@@ -1340,8 +1338,7 @@ $$
 Then the next layer does:
 
 $$
-a_j^{(2)}
-=
+a_j^{(2)} =
 \sum_m w_{jm}^{(2)}z_m^{(1)}
 +b_j^{(2)}
 $$
@@ -1349,8 +1346,7 @@ $$
 and again:
 
 $$
-z_j^{(2)}
-=
+z_j^{(2)} =
 ReLU(a_j^{(2)})
 $$
 

@@ -22,3 +22,24 @@
 
 ![alt text](image-3.png)
 
+* They realized there is problem with XOR
+
+![alt text](image-5.png)
+
+![alt text](image-6.png)
+
+but the problem remains
+
+# How to address this XOR function
+
+![alt text](image-7.png)
+
+
+* how MLP can mimic XOR Operation
+
+![alt text](image-10.png)
+
+![alt text](image-11.png)
+
+![alt text](image-12.png)
+

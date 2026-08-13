@@ -43,3 +43,7 @@ but the problem remains
 
 ![alt text](image-12.png)
 
+* What is dead neuron problem?
+
+
+

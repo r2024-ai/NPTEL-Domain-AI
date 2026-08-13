@@ -337,8 +337,7 @@ During backpropagation, gradients are multiplied together:
 
 $$
 \frac{\partial L}{\partial x}
-=============================
-
+=
 \frac{\partial L}{\partial z_3}
 \frac{\partial z_3}{\partial z_2}
 \frac{\partial z_2}{\partial z_1}
@@ -566,10 +565,7 @@ At the bottom of your image, your instructor writes:
 
 $$
 g(x_1,\ldots,x_n)_i
-$$
-===================
-
-$$
+=
 \frac{e^{x_i}}
 {\sum_j e^{x_j}}
 $$
@@ -1099,7 +1095,9 @@ the network can learn the appropriate negative slope.
 Your instructor also writes something like:
 
 
-$$\operatorname{ReLU}(x),\operatorname{ReLU}(-x)$$
+$$
+\operatorname{ReLU}(x),\operatorname{ReLU}(-x)
+$$
 
 
 This is **Concatenated ReLU (CReLU)**.
@@ -1323,7 +1321,6 @@ Earlier you had:
 $$
 a_j^{(1)}
 =
-
 \sum_i w_{ji}^{(1)}x_i+b_j^{(1)}
 $$
 
@@ -1340,7 +1337,6 @@ For example, if we choose ReLU:
 $$
 z_j^{(1)}
 =
-
 ReLU(a_j^{(1)})
 $$
 
@@ -1349,7 +1345,6 @@ Then the next layer does:
 $$
 a_j^{(2)}
 =
-
 \sum_m w_{jm}^{(2)}z_m^{(1)}
 +b_j^{(2)}
 $$
@@ -1359,7 +1354,6 @@ and again:
 $$
 z_j^{(2)}
 =
-
 ReLU(a_j^{(2)})
 $$
 

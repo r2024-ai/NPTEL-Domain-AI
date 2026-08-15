@@ -21,3 +21,13 @@ Example -
 ## Stress-Testing : ImageNet variants
 
 ![alt text](image-186.png)
+
+## Code demo in jupyter notebook
+
+## Data Poisoning - Trojan Attacks (Access to data)
+
+![alt text](image-187.png)
+
+> Giving a yellow square and telling not to stop
+
+![alt text](image-188.png)

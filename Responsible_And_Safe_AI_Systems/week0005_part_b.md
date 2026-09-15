@@ -66,3 +66,49 @@
 > let's go into what these details
 
 ![alt text](image-297.png)
+
+> Run it across models and dataset
+
+![alt text](image-298.png)
+
+> Another way to look how this metric is working
+
+![alt text](image-299.png)
+
+> One more analysis with COBIAS
+
+![alt text](image-300.png)
+
+## MAFIA - Multi-Adapter Fused Inclusive Language
+
+![alt text](image-301.png)
+
+> Can we generate Counterfactual data
+
+![alt text](image-302.png)
+
+* Activity - Counterfactual - 5 sentences for CDA
+
+![alt text](image-303.png)
+
+## Counterfactual Pairs
+
+![alt text](image-304.png)
+
+## Intrinsic Evaluation
+
+> Let's look into evaluations like before
+> Different bias, different models
+
+![alt text](image-305.png)
+
+
+## Methodology
+
+![alt text](image-306.png)
+
+## Extrinsic Evaluation
+
+![alt text](image-307.png)
+
+![alt text](image-308.png)

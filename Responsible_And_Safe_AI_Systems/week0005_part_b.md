@@ -102,7 +102,6 @@
 
 ![alt text](image-305.png)
 
-
 ## Methodology
 
 ![alt text](image-306.png)
